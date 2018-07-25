@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vc6srv - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\18EE~1\AppData\Local\Temp\RSP72D9.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/vc6srv.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\HOME\VLADIMIR\DOCUMENTS\PRJ\vc6srv\vc6srvDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\18EE~1\AppData\Local\Temp\RSP72D9.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/vc6srv.pdb" /machine:I386 /out:"Release/vc6srv.exe"  .\Release\ServerSocket.obj .\Release\StdAfx.obj .\Release\vc6srv.obj .\Release\vc6srvDlg.obj .\Release\vc6srv.res "
+<h3>Output Window</h3>
+Compiling...
+vc6srvDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/vc6srv.bsc"  .\Release\StdAfx.sbr .\Release\ServerSocket.sbr .\Release\vc6srv.sbr .\Release\vc6srvDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+vc6srv.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
